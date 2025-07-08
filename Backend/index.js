@@ -13,6 +13,15 @@ const app = express()
 const PORT = process.env.PORT || 4000;
 
 dotEnv.config();
+
+// Add before other routes
+app.use(express.static(path.join(__dirname, "../Customer_Frontend/build")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../Customer_Frontend/build", "index.html"));
+});
+
+//
 app.use(cors())
 
 mongoose.connect(process.env.MONGO_URI)
@@ -32,3 +41,4 @@ app.listen(PORT, () => {
 app.use('/', (req, res) => {
     res.send("<h1> Welcome to Yummy App");
 })
+
