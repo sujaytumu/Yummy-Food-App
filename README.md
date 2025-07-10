@@ -15,7 +15,7 @@ A full-stack food ordering system with vendor onboarding, product management, an
 
 ## 🔐 Vendor Login UI
 
-<img src="vendor-login.png.jpg" alt="Vendor Login Screenshot" width="750"/>
+<img src="assets\vendor-login.jpg" alt="Vendor Login Screenshot" width="750"/>
 
 🧪 This screenshot was captured while running the project on `localhost:5173`. The login and backend authentication were previously working — currently, the login service is under maintenance. Dashboard screenshot will be added after auth reconnect.
 
