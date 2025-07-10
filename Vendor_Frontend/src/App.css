@@ -1,317 +1,286 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Comme:wght@100..900&family=Hind+Guntur:wght@300;400;500;600;700&display=swap');
 body {
-    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: "Roboto Condensed", sans-serif; */
+    font-family: "Comme", sans-serif;
 }
 
-.topBarSection {
+.navSection {
+    height: 80px;
     display: flex;
     justify-content: space-between;
+    /* background-color: rgb(54, 52, 180); */
+    background-color: #F46036;
     align-items: center;
-    padding: 0 100px;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    width: 90%;
-    min-width: 80%;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    background-color: white;
-}
-
-.companyTitle h2 {
-    color: orangered;
-    text-decoration: none;
-}
-
-
-/* item section */
-
-.itemSection {
-    display: flex;
-    width: 100%;
-    margin-top: 100px;
-}
-
-.gallery {
-    width: 150px;
-}
-
-.gallery img {
-    width: 100%;
-}
-
-
-/* landingPage */
-
-.landingSection {
-    padding: 0 120px;
-}
-
-
-/* chainseCtion */
-
-.chainSection {
-    display: flex;
-    overflow-x: hidden;
-    position: relative;
-    height: auto;
-}
-
-.vendorBox {
-    border-radius: 10px;
-}
-
-.vendorBox img {
-    width: 350px;
-    height: 220px;
-    flex: 0 0 auto;
-    margin-right: 30px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.btnSection {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    top: 50px;
-    right: 10px;
-    gap: 10px;
-}
-
-.btnSection button {
-    border: none;
-    background: none;
-}
-
-.btnIcons {
-    font-size: x-large;
-}
-
-
-/* firmSection */
-
-.firmSection {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin: 0 auto;
-}
-
-.filterButtons {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.filterButtons button {
-    width: 10rem;
-    padding: 5px 0;
-}
-
-.firmGroup {
-    position: relative;
-}
-
-.firmGroup img {
-    width: 240px;
-    height: 180px;
-    flex: 0 0 auto;
-    margin-right: 30px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.firmDetails {
-    padding-left: 10px;
-}
-
-.firmOffer {
-    width: 100%;
-    max-width: 85%;
-    position: absolute;
-    bottom: 5px;
-    padding-left: 10px;
-    font-size: 1rem;
-    font-weight: 800;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background: transparent;
-    background: linear-gradient(to bottom, rgba(50, 0, 0, 0.08), black);
     color: white;
-    text-transform: uppercase;
+    padding: 0 20px;
+    font-size: large;
 }
 
-.firmName {
-    color: black;
-}
-
-.firmArea {
-    font-size: small;
-    color: gray;
-}
-
-.activeButton {
-    background-color: darkblue;
-    color: white;
-}
-
-
-/* productSection */
-
-.productSection {
-    display: flex;
-    flex-direction: column;
-    padding: 0 150px;
-    margin-top: 100px;
-}
-
-.productSection h3 {
-    text-align: center;
-    background-color: orange;
-}
-
-.productBox {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 30px;
-    border-top: 2px solid lightgray;
-    position: relative;
-}
-
-.productGroup img {
-    width: 100px;
-    border-radius: 5px;
-}
-
-.addButton {
-    border: 1px solid lightgray;
-    text-align: center;
-    background-color: white;
-    border-radius: 5px;
-    color: green;
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    max-width: 80px;
-    margin-left: 10px;
+.userAuth {
     cursor: pointer;
 }
 
-.link {
-    color: black;
-    text-decoration: none;
+.logout {
+    cursor: pointer;
+}
+
+.sideBarSection {
+    width: 100%;
+    max-width: 15%;
+    height: 95vh;
+    padding-top: 10px;
+    /* background-color: lightgray; */
+    background-color: #2E294E;
+    color: white;
+}
+
+.sideBarSection ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.collectionSection {
+    display: flex;
 }
 
 
-/* loaderSection */
+/* logisetion */
 
-.loaderSection {
+.loginSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.authForm label {
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+}
+
+.authForm {
+    width: 100%;
+    max-width: 50%;
+    margin-top: -230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.authForm input {
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+    height: 2rem;
+    font-size: medium;
+}
+
+
+/* firmSection AddFirm */
+
+.firmSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.tableForm {
+    width: 100%;
+    max-width: 50%;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid gray;
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.tableForm input {
+    width: 100%;
+    max-width: 55%;
+    height: 35px;
+    max-width: 85%;
+    margin-bottom: 10px;
+}
+
+.tableForm label {
+    width: 100%;
+    max-width: 85%;
+    font-weight: 600;
+}
+
+
+/* check box inputs */
+
+.checkInp {
+    width: 100%;
+    max-width: 85%;
+    display: flex;
+}
+
+.checkInp label {
+    width: 20%;
+}
+
+.inputsContainer {
+    width: 100%;
+    display: flex;
+}
+
+.checboxContainer {
+    width: 100%;
+    max-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@media (max-width: 576px) {
-    .topBarSection {
-        padding: 0 20px;
-    }
-    .landingSection {
-        padding: 0 10px;
-    }
-    .itemSection {
-        margin-top: 80px;
-    }
-    h3 {
-        font-weight: 800;
-        font-size: medium;
-        color: rgb(34, 30, 30);
-    }
-    .chainSection {
-        height: 190px;
-    }
-    .vendorBox img {
-        width: 260px;
-        height: 180px;
-        flex: 0 0 auto;
-        margin-right: 30px;
-        object-fit: cover;
-        border-radius: 10px;
-    }
-    .mediaChainSection {
-        margin-top: -30px;
-    }
-    .firmSection {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 20px;
-    }
-    .firmOffer {
-        position: absolute;
-        width: 100%;
-        max-width: 88%;
-    }
-    .firmGroup img {
-        width: 300px;
-    }
-    .productSection {
-        padding: 0 10px;
-    }
-    .productSection h3 {
-        text-align: center;
-        background-color: orange;
-    }
-    .searchBar {
-        border: 1px solid red;
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        display: none;
-    }
-    .searchBar input {
-        width: 100%;
-        max-width: 50%;
-    }
-    .filterButtons button {
-        width: 5rem;
-        padding: 5px;
-        margin-right: 5px;
-    }
-    .userAuth {
-        margin-right: 10px;
-    }
-    .btnIcons {
-        font-size: large;
-        gap: 2px;
-    }
-    .chainTitle {
-        position: relative;
-        top: -10px;
-    }
-    .loaderSection {
-        position: relative;
-        background: transparent;
-        display: flex;
-        flex-direction: column;
-        top: 100px;
-    }
+.checboxContainer label {
+    width: 100%;
+}
+
+.checboxContainer input {
+    margin-left: -180px;
+}
+
+.checboxContainer label {
+    font-size: small;
+}
+
+.regBoxContainer label {
+    font-size: small;
 }
 
 
-/* hoverEffect */
+/* products table */
 
-.zoomEffect {
-    transition: transform 0.3s ease-in-out;
-    overflow: hidden;
+.productSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.zoomEffect:hover {
-    transform: scale(0.95);
+.product-table {
+    width: 80vw;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid rgb(128, 128, 128);
+    padding: 8px;
+}
+
+.product-table th {
+    text-align: left;
+    background-color: rgb(47, 77, 212);
+    color: white;
+}
+
+.deleteBtn {
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* not found */
+
+.errorSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorSection h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    color: #D7263D;
+}
+
+
+/* btn Submit */
+
+.btnSubmit button {
+    background-color: rgb(43, 43, 180);
+    width: 6rem;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+/* landing image  */
+
+.welcomeSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landingImage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.welcomeSection h2 {
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    color: #2073c0;
+}
+
+.showPassword {
+    width: fit-content;
+    position: absolute;
+    bottom: 90px;
+    right: 135px;
+    cursor: pointer;
+}
+
+.loaderSection {
+    z-index: 10000;
 }
