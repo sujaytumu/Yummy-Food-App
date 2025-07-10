@@ -17,7 +17,7 @@ A full-stack food ordering system with vendor onboarding, product management, an
 
 <img src="assets\vendor-login.jpg" alt="Vendor Login Screenshot" width="750"/>
 
-🧪 This screenshot was captured while running the project on `localhost:5173`. The login and backend authentication were previously working — currently, the login service is under maintenance. Dashboard screenshot will be added after auth reconnect.
+Login and backend authentication tested locally at `localhost:5173`. Dashboard screenshot will be added soon.
 
 ---
 
