@@ -33,11 +33,14 @@ Login and backend authentication tested locally at `localhost:5173`. Dashboard s
 
 ## 📂 Project Structure
 
+```
 Yummy-Food-App/
-├── client/                 → React frontend (Customer)
-├── server/                 → Node.js backend (Vendor/Admin APIs)
-├── assets/                → Screenshots like login UI
-├── README.md              → Project description file (this)
-├── .gitignore             → Git ignored files config
+├── client/                 # React frontend (Customer)
+├── server/                 # Node.js backend (Vendor/Admin APIs)
+├── assets/                 # Screenshots like login UI
+├── README.md               # Project description file (this)
+├── .gitignore              # Git ignored files config
+```
+
 
 
