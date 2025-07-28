@@ -1,0 +1,19 @@
+.passwordWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.passwordWrapper input {
+  flex: 1;
+  padding-right: 70px;
+}
+
+.showPasswordBtn {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 0.9rem;
+  user-select: none;
+}
