@@ -4,6 +4,15 @@ A full-stack food ordering system with vendor onboarding, product management, an
 
 ---
 
+
+# 🍔 Deploy
+
+Backend: https://yummy-food-app-backend.onrender.com/
+Vendor Frontend: https://yummy-food-app-frontend.vercel.app/
+Customer Frontend: https://yummy-food-app-customer-frontend.vercel.app/
+
+---
+
 ## 🚀 Tech Stack
 
 - Frontend: React.js, HTML, CSS, JavaScript
