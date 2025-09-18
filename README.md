@@ -1,11 +1,11 @@
-# 🍔 Multi-Vendor Food Delivery App
+# 🥗 Multi-Vendor Food Delivery App
 
 A full-stack food ordering system with vendor onboarding, product management, and role-based access control using the MERN stack.
 
 ---
 
 
-# 🍔 Deploy
+# 🚀 Deploy
 
 Backend: https://yummy-food-app-backend.onrender.com/
 Vendor Frontend: https://yummy-food-app-frontend.vercel.app/
