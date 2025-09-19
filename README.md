@@ -22,14 +22,6 @@ A full-stack food ordering system with vendor onboarding, product management, an
 
 ---
 
-## 🔐 Vendor Login UI
-
-<img src="assets\vendor-login.jpg" alt="Vendor Login Screenshot" width="750"/>
-
-Login and backend authentication tested locally at `localhost:5173`. Dashboard screenshot will be added soon.
-
----
-
 ## ✨ Features
 
 - Vendor signup with admin approval
