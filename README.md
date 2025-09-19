@@ -7,9 +7,9 @@ A full-stack food ordering system with vendor onboarding, product management, an
 
 # 🚀 Deploy
 
-# Backend: https://yummy-food-app-backend.onrender.com/vendor/all-vendors   <br>
-# Vendor Frontend: https://yummy-food-app-frontend.vercel.app/    <br>
-# Customer Frontend: https://yummy-food-app-customer-frontend.vercel.app/  <br>
+ Backend: https://yummy-food-app-backend.onrender.com/vendor/all-vendors   <br>
+ Vendor Frontend: https://yummy-food-app-frontend.vercel.app/    <br>
+ Customer Frontend: https://yummy-food-app-customer-frontend.vercel.app/  <br>
 
 ---
 
